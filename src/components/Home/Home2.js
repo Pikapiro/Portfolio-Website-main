@@ -27,7 +27,7 @@ function Home2() {
               solving problems was always 
               <br />
               <br /> my passion, and as of now, I’m focusing on{" "}
-              <i className="primary-header">developing Web and mobile application</i>Also, I love catching up on new tech and learning new things
+              <i className="primary-header">developing Web and mobile application</i> Also, I love catching up on new tech and learning new things
               <br />
               <br />As of now, I am more interested in developing new Web/Mobile
               <i>
