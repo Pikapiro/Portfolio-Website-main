@@ -22,11 +22,11 @@ function Home2() {
             <p className="home-about-body" data-aos="fade-up">
               <br />
               I'm a <i className="primary-header">
-              Web Developer
+             Full-stack develer 
               </i>{" "}
-              solving problems was always 
+          
               <br />
-              <br /> my passion, and as of now, I’m focusing on{" "}
+              <br /> solving problems was always, my passion, and as of now, I’m focusing on{" "}
               <i className="primary-header">developing Web and mobile application</i> Also, I love catching up on new tech and learning new things
               <br />
               <br />As of now, I am more interested in developing new Web/Mobile
