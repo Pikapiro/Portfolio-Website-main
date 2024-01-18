@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import homeIcon from "../../Assets/homeicons.svg";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
@@ -23,7 +23,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                <strong className="main-name"> Dani shapiro</strong>
+                <strong className="main-name"> Dani Shapiro</strong>
               </h1>
 
               <div style={{ padding: 30 }} className="type">
