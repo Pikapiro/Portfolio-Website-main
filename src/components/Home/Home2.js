@@ -22,7 +22,7 @@ function Home2() {
             <p className="home-about-body" data-aos="fade-up">
               <br />
               I'm a <i className="primary-header">
-             Full-stack develer 
+             Full-stack developer 
               </i>{" "}
           
               <br />
