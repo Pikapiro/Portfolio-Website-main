@@ -24,25 +24,24 @@ function Home2() {
               I'm a <i className="primary-header">
               Web Developer
               </i>{" "}
-              who loves solving problems and building Web and mobile application.
+              solving problems was always 
               <br />
-              <br />I am passionate about{" "}
-              <i className="primary-header">technologies</i> and love to learn
-              new things.
+              <br /> my passion, and as of now, I’m focusing on{" "}
+              <i className="primary-header">developing Web and mobile application</i>Also, I love catching up on new tech and learning new things
               <br />
-              <br />I am more interested in building new
+              <br />As of now, I am more interested in developing new Web/Mobile
               <i>
                 <i className="primary-header">Web & Mobile Technologies and Products.</i>
               </i>
               <br />
-              <br />I always apply my experience in developing products with{" "}
-              <i className="primary-header">the newest</i> and Modern 
-              Librarys and Frameworks
+              <br />I can apply my experience in developing products with the 
+              <i className="primary-header">newest and  and Frameworks</i> Modern Librarys and Frameworks
+           
               <br />
               <br />
-              Im  always expanding my portfolio by building more{" "}
-              <i className="primary-header">projects </i>projects that I can add
-              here.
+              I strive to always {" "}
+              <i className="primary-header">expand  </i>my portfolio by building more projects.
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
