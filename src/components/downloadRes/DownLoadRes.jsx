@@ -14,7 +14,7 @@ const DownLoadRes = () => {
     return (
 
      
-                <h1  onClick={onButtonClick} >Resume</h1>
+                <a onClick={onButtonClick} >Resume</a>
             
                  
            
