@@ -1,14 +1,14 @@
 import React, { useContext, useEffect, useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import { ThemeContext } from "../../Context/theme";
 
 import Container from "react-bootstrap/Container";
-import logoLight from "../../Assets/logoLight.png";
 import logoDark from "../../Assets/logoDark.png";
-import resume from "../../Assets/resume.pdf";
+import logoLight from "../../Assets/logoLight.png";
 
 import { Link } from "react-router-dom";
+import DownLoadRes from "../downloadRes/DownLoadRes";
 import "./navbar.css";
 
 function NavBar() {
@@ -101,9 +101,9 @@ function NavBar() {
                 
                 target="_blank"
                 rel="noreferrer"
-                download={resume}
+              
               >
-               Resume
+             <DownLoadRes/>
               </Nav.Link>
             </Nav.Item>
           </Nav>
