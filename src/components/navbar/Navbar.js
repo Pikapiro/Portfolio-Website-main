@@ -4,18 +4,25 @@ import Navbar from "react-bootstrap/Navbar";
 import { ThemeContext } from "../../Context/theme";
 
 import Container from "react-bootstrap/Container";
+import { Link } from "react-router-dom";
 import logoDark from "../../Assets/logoDark.png";
 import logoLight from "../../Assets/logoLight.png";
-
-import { Link } from "react-router-dom";
-import DownLoadRes from "../downloadRes/DownLoadRes";
+import resume from '../../Assets/resume.pdf';
 import "./navbar.css";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   const [{ themename, toggeltheme }] = useContext(ThemeContext);
-
+      const onButtonClick = () => {
+            const pdfUrl = {resume};
+            const link = document.createElement("a");
+            link.href = pdfUrl;
+            link.download = {resume}; // specify the filename
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        };
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -96,6 +103,7 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
+              onClick={onButtonClick}
                as={Link}
             
                 
@@ -103,7 +111,7 @@ function NavBar() {
                 rel="noreferrer"
               
               >
-             <DownLoadRes/>
+      Resume
               </Nav.Link>
             </Nav.Item>
           </Nav>
