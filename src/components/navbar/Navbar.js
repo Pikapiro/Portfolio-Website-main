@@ -15,7 +15,7 @@ function NavBar() {
   const [navColour, updateNavbar] = useState(false);
   const [{ themename, toggeltheme }] = useContext(ThemeContext);
       const onButtonClick = () => {
-            const pdfUrl = {resume};
+            const pdfUrl = '../../Assets/resume.pdf';
             const link = document.createElement("a");
             link.href = pdfUrl;
             link.download = {resume}; // specify the filename
