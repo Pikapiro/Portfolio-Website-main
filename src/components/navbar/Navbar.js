@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import resume from '../../Assets/';
 import { ThemeContext } from "../../Context/theme";
 
 import Container from "react-bootstrap/Container";
@@ -14,15 +13,7 @@ function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   const [{ themename, toggeltheme }] = useContext(ThemeContext);
-      const onButtonClick = () => {
-            const pdfUrl = '../../Assets/resume.pdf';
-            const link = document.createElement("a");
-            link.href = pdfUrl;
-            link.download ={resume}
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        };
+ 
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -101,19 +92,7 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-              onClick={onButtonClick}
-               as={Link}
-            
-                
-                target="_blank"
-                rel="noreferrer"
-              
-              >
-      Resume
-              </Nav.Link>
-            </Nav.Item>
+        
           </Nav>
 
           <Nav.Item>
