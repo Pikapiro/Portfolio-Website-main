@@ -1,6 +1,6 @@
 import React from "react";
-import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
+import GitHubCalendar from "react-github-calendar";
 
 function Github() {
   return (
@@ -10,7 +10,7 @@ function Github() {
       </h1>
       <div className="gitContainer" data-aos="fade-up">
         <GitHubCalendar
-          username="Rahuljha4171"
+          username="Pikapiro"
           color="#1872B6"
           blockSize={15}
           blockMargin={5}

@@ -1,13 +1,13 @@
 import React, { useContext, useEffect, useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import resume from '../../Assets/';
 import { ThemeContext } from "../../Context/theme";
 
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import logoDark from "../../Assets/logoDark.png";
 import logoLight from "../../Assets/logoLight.png";
-import resume from '../../Assets/resume.pdf';
 import "./navbar.css";
 
 function NavBar() {
@@ -18,7 +18,7 @@ function NavBar() {
             const pdfUrl = '../../Assets/resume.pdf';
             const link = document.createElement("a");
             link.href = pdfUrl;
-            link.download = {resume}; // specify the filename
+            link.download ={resume}
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);

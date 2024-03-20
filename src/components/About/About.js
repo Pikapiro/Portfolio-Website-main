@@ -1,11 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import laptopImg from "../../Assets/about.png";
+import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import Aboutcard from "./AboutCard";
 import Github from "./Github";
 import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 import "./about.css";
 
@@ -26,7 +26,7 @@ function About() {
               style={{ fontSize: "2.1em", paddingBottom: "20px" }}
               data-aos="fade-right"
             >
-              <span className="primary-header">Who</span> I'M
+              <span className="primary-header">Who</span> am i ?
             </h1>
             <div data-aos="fade-up">
               <Aboutcard />
@@ -46,7 +46,7 @@ function About() {
           </Col>
         </Row>
         <h1 data-aos="fade-right">
-          <span className="primary-header">Skillset</span> I Work With
+          <span className="primary-header">Skill set</span> I Work With
         </h1>
 
         <div data-aos="fade-up">
